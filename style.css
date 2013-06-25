@@ -1,0 +1,207 @@
+@import url(http://fonts.googleapis.com/css?family=PT+Serif:400,700,400italic);
+
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+body {
+    background: url('cloth_alike.png') top left repeat #f2f1ea;
+    margin: 0;
+    padding: 0;
+    font: normal 15px 'PT Serif', Georgia, Palatino, Times, 'Times New Roman', serif;
+}
+
+.clear {
+    clear: both;
+    height: 0;
+    overflow: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    width: 800px;
+    margin: 0 auto 20px auto;
+    color: #4e4d48;
+}
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+    text-decoration: none;
+    color: #4e4d48;
+}
+
+h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
+    color: #3c3c38;
+}
+
+a {color: #383734;}
+a:hover {color: #1b1a19;}
+
+.intro {
+    width: 800px;
+    margin: 0 auto 20px auto;
+}
+
+.byline {
+    width: 550px;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    font: normal italic 25px Palatino, Times, 'Times New Roman';
+    color: #2a2924;
+}
+
+#resume {
+    width: 650px;
+    margin: 25px auto;
+    background: #fafafa;
+    border: 1px solid #fff;
+    padding: 20px 40px;
+    color: #383734;
+
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0, 0.3);
+    -moz-box-shadow: 0 1px 3px rgba(0,0,0, 0.3);
+    box-shadow: 0 1px 3px rgba(0,0,0, 0.3);
+
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    border-radius: 1px;
+}
+
+    .input,
+    .textarea,
+    .list .list_item,
+    .section_name {
+        border: 1px solid rgba(0,0,0, 0);
+        padding: 2px 5px;
+        min-width: 8px;
+    }
+
+    .list {
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+
+        .list .list_item {
+            display: list-item;
+            list-style: circle outside none;
+            margin: 0;
+        }
+
+    .bullet {
+        margin: 0 4px;
+        vertical-align: -4px;
+    }
+
+    hr {
+        margin: 18px 0 20px 0;
+        background: #cecdc4;
+        height: 1px;
+        overflow: hidden;
+        border: none;
+    }
+
+    hr:last-child {display: none;}
+
+
+    #person_name {font-size: 42px;}
+
+    #person_address,
+    #person_contact_info {
+        margin-top: 15px;
+        font-size: 18px;
+        font-style: italic;
+    }
+
+    #person_contact_info {margin-top: 5px;}
+
+    #objective {
+        font-size: 22px;
+        line-height: 27px;
+        min-height: 27px;
+    }
+
+    .section_heading {
+        position: relative;
+        font-size: 20px;
+        font-style: italic;
+        font-weight: normal;
+        margin: -5px auto 0 auto;
+    }
+
+        .section {
+            position: relative;
+            margin-top: 20px;
+        }
+
+        .section.first {margin-top: 8px;}
+
+             .section_name {
+                font-weight: bold;
+                width: 360px;
+                display: inline-block;
+            }
+
+            .section_timespan {
+                text-align: right;
+                width: 200px;
+                margin-left: 2px;
+                display: inline-block;
+            }
+
+            .section_title {
+                font-style: italic;
+                margin: 5px 0 0 5px;
+            }
+
+            .section_list {margin: 5px 0 0 25px;}
+
+.item_list {
+    width: 800px;
+    margin: 0 auto 40px auto;
+    border-top: 1px solid #cecdc4;
+    color: #383734;
+}
+
+    .item_list a {
+        color: #383734;
+        text-decoration: none;
+    }
+
+        .item_list a:hover {text-decoration: underline;}
+
+    .item_list .footer {}
+
+        .item_list .footer a {
+            text-align: center;
+            padding: 15px;
+            display: block;
+        }
+
+            .item_list .footer a:hover {
+                text-decoration: none;
+                background: #e5e3d5;
+            }
+
+    .item_list .item {
+        border-bottom: 1px solid #cecdc4;
+        padding: 10px;
+    }
+
+        .item_list .item .description {
+            float: left;
+            width: 500px;
+            white-space: nowrap;
+            overflow: hidden;
+        }
+
+            .item_list .item .description .chromeless_input {
+                width: 350px;
+                color: #8f8d87;
+            }
+
+        .item_list .item .controls {
+            float: right;
+            width: 270px;
+            text-align: right;
+        }
+
+            .item_list .item .controls a,
+            .item_list .item .controls span {margin-left: 5px;}
